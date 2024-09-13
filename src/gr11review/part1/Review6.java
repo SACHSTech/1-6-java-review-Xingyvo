@@ -6,7 +6,7 @@ import java.text.*;
 public class Review6 {
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
-        NumberFormat numberFormat = new DecimalFormat("$#,###.00"); 
+        NumberFormat numberFormat = new DecimalFormat("$#,##0.00"); 
 
         // Declare and initialize variables
         double dblPrice = 0;

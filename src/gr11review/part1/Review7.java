@@ -40,7 +40,7 @@ public class Review7 {
         System.out.println("There are " + intLetterA + " letter a in the sentence."); 
 
         // Take the odd numbered characters in the sentence to produce dashes
-        for (int i = 0; i < strTheSentence.length(); i++) {;
+        for (int i = 0; i < strTheSentence.length() + 1; i++) {;
             if (i % 2 != 0) {
                 intDashes++;
             } 

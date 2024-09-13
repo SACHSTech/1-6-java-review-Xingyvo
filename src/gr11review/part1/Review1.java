@@ -14,10 +14,10 @@ public class Review1 {
         int intTotal;
 
         // Read inputs from user
-        System.out.print("Enter a month number: ");
+        System.out.print("Enter the month number: ");
         intMonth = Integer.parseInt(keyboard.readLine());
 
-        System.out.print("Enter a day number: ");
+        System.out.print("Enter the day number: ");
         intDay = Integer.parseInt(keyboard.readLine());
 
         // Determine how many days are in each month and add them

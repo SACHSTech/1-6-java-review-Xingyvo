@@ -6,7 +6,8 @@ public class Review5 {
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
-        // Declare and intialize variables
+        // Declare variables
+        double dblYear;
         double dblAmount;
         double dblYearlyAmount;
         double dblRate;
@@ -23,19 +24,19 @@ public class Review5 {
         System.out.print("Enter the target amount: ");
         dblTargetAmount = Double.parseDouble(keyboard.readLine());
 
-        // Initialize variable
+        // Initialize variables
         dblYearlyAmount = dblAmount;
-        double dblYear = 0;
+        dblYear = 0;
 
         // Calculate how long it will take to earn target amount
-        while (dblAmount <= dblTargetAmount) {
+        while (dblAmount <= dblTargetAmount && dblTargetAmount != 0) {
             // Calculate interest rate and total 
             dblRate = dblCompoundInterestRate / dblYearlyAmount * dblAmount;
-            dblAmount = dblAmount + dblRate;
+            dblAmount += dblRate;
 
             // Update the year and add the yearly invested amount
-            dblYear++;
             dblAmount += dblYearlyAmount;
+            dblYear++;
         }
 
         // Output result
