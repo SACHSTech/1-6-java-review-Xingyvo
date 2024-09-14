@@ -7,7 +7,7 @@ public class Review5 {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
         // Declare variables
-        double dblYear;
+        int intYear;
         double dblAmount;
         double dblYearlyAmount;
         double dblRate;
@@ -26,20 +26,26 @@ public class Review5 {
 
         // Initialize variables
         dblYearlyAmount = dblAmount;
-        dblYear = 0;
+        intYear = 0;
 
         // Calculate how long it will take to earn target amount
         while (dblAmount <= dblTargetAmount && dblTargetAmount != 0) {
+            // Add an additional yearly amount after the first year
+            if (intYear > 0) {
+                dblAmount += dblYearlyAmount;
+            } if (dblCompoundInterestRate == 0 ) {
+                dblAmount += dblYearlyAmount;
+            }
+        
             // Calculate interest rate and total 
-            dblRate = dblCompoundInterestRate / dblYearlyAmount * dblAmount;
+            dblRate = (dblCompoundInterestRate/100) * dblAmount;
             dblAmount += dblRate;
 
             // Update the year and add the yearly invested amount
-            dblAmount += dblYearlyAmount;
-            dblYear++;
+            intYear++; 
         }
 
         // Output result
-        System.out.println("The target amount will be earned in " + dblYear + " years.");
+        System.out.println("The target amount will be earned in " + intYear + " years.");
     }
 }
