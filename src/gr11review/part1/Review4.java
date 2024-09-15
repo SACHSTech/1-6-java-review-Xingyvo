@@ -6,6 +6,8 @@ import java.text.*;
 public class Review4 {
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+
+        // Format the numbers
         NumberFormat numberFormat = new DecimalFormat("$#,##0.00"); 
     
         // Declare and intialize variables

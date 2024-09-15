@@ -25,7 +25,7 @@ public class Review8 {
             System.out.print(intRandom2 + " ");
             System.out.println(intRandom3);
 
-            // If all 3 numbers are equal, update the count
+            // If all 3 numbers are equal, update the count for triples
             if (intRandom1 == intRandom2 && intRandom2 == intRandom3) {
                 intTriplesCount++;
             }

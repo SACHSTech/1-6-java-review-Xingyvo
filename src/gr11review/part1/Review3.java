@@ -4,7 +4,6 @@ import java.io.*;
 
 public class Review3 {
     public static void main(String[] args) throws IOException {
-        BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
         
         // Prints the odd numbers from 20 to 100
         for (int i = 21; i <= 100; i+=2) {

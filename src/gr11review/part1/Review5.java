@@ -33,7 +33,8 @@ public class Review5 {
             // Add an additional yearly amount after the first year
             if (intYear > 0) {
                 dblAmount += dblYearlyAmount;
-            } if (dblCompoundInterestRate == 0 ) {
+            } 
+            if (dblCompoundInterestRate == 0 ) {
                 dblAmount += dblYearlyAmount;
             }
         

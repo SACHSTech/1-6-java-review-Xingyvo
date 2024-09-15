@@ -29,7 +29,7 @@ public class Review7 {
 
         System.out.println("There are " + intSpaces + " spaces in the sentence.");
 
-        // Find and output how many times the letter a occurs
+        // Find and output how many times the letter 'a' occurs
         for (int i = 0; i < strTheSentence.length(); i++) {
             strTheSentence.toLowerCase();
             if (strTheSentence.charAt(i) == 'a') {

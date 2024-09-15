@@ -6,6 +6,8 @@ import java.text.*;
 public class Review6 {
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+
+        // Foramt the numbers
         NumberFormat numberFormat = new DecimalFormat("$#,##0.00"); 
 
         // Declare and initialize variables
@@ -15,7 +17,7 @@ public class Review6 {
         double dblTotal = 0;
         boolean blnRun = true;
 
-        // Ask for the price of an item, stops when user enters 0
+        // Ask for the price of an item
         while (blnRun) {
             System.out.print("Enter the price for an item: ");
             dblPrice = Double.parseDouble(keyboard.readLine());
@@ -23,6 +25,7 @@ public class Review6 {
             // Update subtotal
             dblSubtotal += dblPrice;
 
+            // Stops when user enters 0
             if (dblPrice == 0) {
                 blnRun = false;
             }
