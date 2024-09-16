@@ -3,7 +3,21 @@ package gr11review.part1;
 import java.io.*;
 import java.text.*;
 
+/**
+ * Review 4 asks the user how many items they would like to purchase. then the
+ * program asks for the prices of each item and calcualtes the subtotal, tax, and
+ * total.
+ * 
+ * @author: B. Yu
+ */
 public class Review4 {
+
+    /**
+     * Main method to execute the program's logic
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
