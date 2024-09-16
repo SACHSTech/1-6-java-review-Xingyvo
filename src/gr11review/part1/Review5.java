@@ -2,7 +2,21 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+ * Review 5 asks for the yearly amount, annual compound interest, and target 
+ * amount, and then outputs the number of years it will take for the 
+ * investment to reach the targeted amount.
+ * 
+ * @author: B. Yu
+ */
 public class Review5 {
+
+    /**
+     * Main method to execute the program's logic
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
