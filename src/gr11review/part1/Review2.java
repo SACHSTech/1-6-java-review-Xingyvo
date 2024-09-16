@@ -2,7 +2,20 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+ * Review 2 prints out a statement of options and asks the user to select an 
+ * option. Then based on the user's choice, the program will print out a joke.
+ * 
+ * @author: B. Yu
+ */
 public class Review2 {
+
+    /**
+     * Main method to execute the program's logic
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
