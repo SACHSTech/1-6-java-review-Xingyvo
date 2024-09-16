@@ -3,7 +3,20 @@ package gr11review.part1;
 import java.io.*;
 import java.text.*;
 
+/**
+ * Review 6 asks the user to keep on pricing items. If the user enters 0
+ * then the program will stop.
+ * 
+ * @author: B. Yu
+ */
 public class Review6 {
+
+    /**
+     * Main method to execute the program's logic
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
