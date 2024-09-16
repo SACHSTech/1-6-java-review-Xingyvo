@@ -2,7 +2,22 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+ * Review 7 prompts the user for a sentence. The program then uses
+ * a variety of string methods to find the number of characters in the sentence,
+ * the number of spaces in the sentence, and the number of the letter 'a'. It 
+ * also takes the odd numbered characters to produce a string of dashes.
+ * 
+ * @author: B. Yu
+ */
 public class Review7 {
+
+    /**
+     * Main method to execute the program's logic
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
