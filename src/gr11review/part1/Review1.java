@@ -2,7 +2,20 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+ * Review 1 asks the user to enter a month and day number. It then calculates and 
+ * outputs the day of the year for that day, assuming it is a non-leap year.
+ * 
+ * @author: B. Yu
+ */
 public class Review1 {
+
+    /**
+     * Main method to execute the program logic
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
