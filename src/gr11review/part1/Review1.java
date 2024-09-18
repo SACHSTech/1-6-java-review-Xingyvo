@@ -6,6 +6,10 @@ import java.io.*;
  * Review 1 asks the user to enter a month and day number. It then calculates and 
  * outputs the day of the year for that day, assuming it is a non-leap year.
  * 
+ * This program uses an array to store the number of days in each month and reads
+ * user input from the console to compute the total number of days from the start
+ * of the year to the given date.
+ * 
  * @author: B. Yu
  */
 public class Review1 {
