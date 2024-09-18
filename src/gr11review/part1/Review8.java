@@ -4,9 +4,12 @@ import java.io.*;
 import java.util.Random;
 
 /**
- * Review 8 stimulates 1000 pulls of a slot machine. Three random numbers (between
+ * Review 8 simulatee 1000 pulls of a slot machine. Three random numbers (between
  * 0 and 8) are generated for each pull. Additionally, the program keeps count 
  * of the number of times a triple (all 3 numbers equal) was pulled.
+ * 
+ * This program uses a loop to simulate 1000 pulls of a slot machine. The loop
+ * also updates the count for triples each time a triple is pulled.
  * 
  * @author: B. Yu
  */
