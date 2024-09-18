@@ -7,6 +7,10 @@ import java.io.*;
  * amount, and then outputs the number of years it will take for the 
  * investment to reach the targeted amount.
  * 
+ * This program reads the user's input from the console and then uses a while
+ * loop to calculate how many years it will take for the investment to reach
+ * the target amount.
+ * 
  * @author: B. Yu
  */
 public class Review5 {
