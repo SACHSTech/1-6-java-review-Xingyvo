@@ -6,6 +6,9 @@ import java.io.*;
  * Review 3 prints the odd numbers from 20-100 and prints the numbers from 29-2
  * in decreaing order with separate loops.
  * 
+ * This program uses two separate loops and the output of these loops are separated
+ * by a blank space.
+ * 
  * @author: B. Yu
  */
 public class Review3 {
