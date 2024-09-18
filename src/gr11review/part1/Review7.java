@@ -8,6 +8,9 @@ import java.io.*;
  * the number of spaces in the sentence, and the number of the letter 'a'. It 
  * also takes the odd numbered characters to produce a string of dashes.
  * 
+ * This program uses a variety of string methods to calculate the number of characters,
+ * spaces, letter a's, and odd numbered characters in the sentence.
+ * 
  * @author: B. Yu
  */
 public class Review7 {
