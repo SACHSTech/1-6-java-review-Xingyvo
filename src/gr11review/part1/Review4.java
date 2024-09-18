@@ -8,6 +8,9 @@ import java.text.*;
  * program asks for the prices of each item and calcualtes the subtotal, tax, and
  * total.
  * 
+ * This program uses a loop to ask the user how they would like to price their
+ * items. It then uses the given prices to compute, the subtotal, tax, and total.
+ * 
  * @author: B. Yu
  */
 public class Review4 {
