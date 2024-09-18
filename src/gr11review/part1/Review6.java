@@ -7,7 +7,7 @@ import java.text.*;
  * Review 6 asks the user to keep on pricing items. If the user enters 0
  * then the program will stop.
  * 
- * This program uses a while loop to keep on pricing items until it is stopped.\
+ * This program uses a while loop to keep on pricing items until it is stopped.
  * 
  * @author: B. Yu
  */
