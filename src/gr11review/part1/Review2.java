@@ -6,6 +6,9 @@ import java.io.*;
  * Review 2 prints out a statement of options and asks the user to select an 
  * option. Then based on the user's choice, the program will print out a joke.
  * 
+ * This program uses a switch-case structure to output something based
+ * on the user's choice.
+ * 
  * @author: B. Yu
  */
 public class Review2 {
